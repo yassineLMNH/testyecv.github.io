@@ -1,15 +1,61 @@
-/* Add your previous CSS styles here */
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 
-/* Additional styling for new sections */
-#projects {
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
     margin-top: 20px;
 }
 
-#projects .entry {
+.entry {
     margin: 10px 0;
 }
 
-#projects .entry h3 {
-    font-size: 18px;
+h3 {
+    font-size: 20px;
+    margin: 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Additional styling for sections */
+#summary p {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Add more CSS styling to customize your CV further */

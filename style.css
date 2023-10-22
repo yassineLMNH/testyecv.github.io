@@ -81,3 +81,35 @@ li {
     color: transparent;
     -webkit-text-fill-color: transparent;
   }
+
+
+
+
+
+
+
+
+
+
+/* Navbar styles */
+.navbar {
+    background-color: #007BFF;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}

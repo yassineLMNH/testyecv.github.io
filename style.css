@@ -10,17 +10,31 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f0f0f0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
 header {
     text-align: center;
-    background-color: #007BFF;
-    color: #fff;
+    background-color: #acd0e1;
+    color: #000000;
     padding: 20px;
     border-radius: 5px 5px 0 0;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -60,23 +74,10 @@ li {
 
 /* Add more CSS styling to customize your CV further */
 
-
-header {
-    text-align: center;
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px;
-    border-radius: 5px 5px 0 0;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-img {
-    max-width: 150px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
